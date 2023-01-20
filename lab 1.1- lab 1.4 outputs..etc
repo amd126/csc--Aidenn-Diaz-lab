@@ -1,0 +1,87 @@
+1.1 exercises my output was 
+
+ sh -c make -s
+ ./main
+Now is the time for all good men
+To come to the aid of their party
+
+1.2 my outputs are
+
+---------------------------------
+
+sh -c make -s
+ ./main
+Today is a great day for Lab
+Let's start off by typing a number of your choice
+9
+18 is twice the number you typed
+
+-----------------------------
+
+sh -c make -s
+ ./main
+Today is a great day for Lab
+Let's start off by typing a number of your choice
+6
+12 is twice the number you typed
+
+----------------------------------
+
+sh -c make -s
+ ./main
+Today is a great day for Lab
+Let's start off by typing a number of your choice
+3
+6 is twice the number you typed
+
+---------------------------------
+
+1.3 my outputs are valid
+
+-----------------------------------
+
+ sh -c make -s
+ ./main
+Hi there
+Please input a number and then hit return
+9
+Half of your number is 4.5
+
+-------------------------------------
+
+sh -c make -s
+ ./main
+Hi there
+Please input a number and then hit return
+7
+Half of your number is 3.5
+
+--------------------------------------
+
+ sh -c make -s
+ ./main
+Hi there
+Please input a number and then hit return
+10
+Half of your number is 5
+
+---------------------------------------
+
+1.4 my output was
+
+--------------------------------------
+
+ sh -c make -s
+ ./main
+Enter the first number
+Then hit enter
+4
+Enter the second number
+Then hit enter
+5
+
+You input the numbers as 4 and 5
+After swapping, the values of the two numbers are 5 and 5
+
+---------------------------------------------------------
+
