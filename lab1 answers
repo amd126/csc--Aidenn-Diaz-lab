@@ -1,1 +1,30 @@
+Lab 1 
+Aidenn Diaz
+January 20, 2023
 
+
+1. I used replit
+2.I typed in the code and the output is 
+
+sh -c make -s
+./main
+orange county community college
+lab1
+x + y =25
+
+
+After deleting the semi colan it did not compile and received a syntax error
+
+4.after placing the semi colan again it compiled correctly
+
+5.after modifying the code i was able to see the values of x and y and the end result was 
+
+sh -c make -s
+./main
+orange county community college
+lab1
+content of x right after initialization: 20
+x + y =25
+content of y right after program exit: 5
+
+6.after commenting out the cout statements the values of x and y were not visible during the execution
