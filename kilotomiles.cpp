@@ -2,7 +2,7 @@
 // before printing the values. The user will be prompted to enter
 // the amount of kilometers.
 // Aidenn Diaz
-#include <iostream>
+#include <kilotomiles>
 using namespace std;
 int main()
 {
