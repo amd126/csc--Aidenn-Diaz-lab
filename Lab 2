@@ -49,8 +49,11 @@ line 27 = false
 c)I used replit to compile the program so I pressed the run button.
 d)after running it the outputs I recieved differed from my predictions, instead of responding with true or false it outputted either 1 or 0, 0 = false,
 and 1 = true. The answers were also different I said line 13 was flase but it said it was true. Our answers also differed on lines 16,18,24.
-db) becuase I considered the answers for lines 16,18 as undefined I did not see it as infinite, and for line 24 i think the computer had conflict
-with identyfing 2.0/10.0 as a float. I belive the same thing happened on line 14
+db) becuase I considered the answers for lines 16,18 as undefined I did not see it as infinite, and for line 24 I think the computer may have loss some
+accuracy with the floats maybe rounding incorrectly with identyfing 2.0/10.0. I belive the same thing happened on line 14.
+
+10.
+
 
 
 
