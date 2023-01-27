@@ -1,0 +1,54 @@
+Aidenn Diaz
+January 27,2023
+
+1. Memory is commonly stored as bytes, a byte is 8 bits, and a bit is a binary digit ( 1 or 0). these chunks of memory are sized according to their data type.
+each byte in memory gets their own unique address.
+
+2.
+a) 11 converted into binary is : 01011
+b) 27 converted in binary is : 11011
+c) 56 converted into binary is : 111000
+d) 38 converted into binary is : 100110
+
+3. 
+a)11011001 = 128+64+16+8+1 = 217
+b)00110101 = 1+4+16+32 = 53
+c)10101010 = 2+8+32+128 = 170
+d)11111111 = 1+2+4+8+16+32+64+128 = 255
+
+4.the types of data that can be represented in C++ are, integers (short, int, long),floating point data (float, double), character data (char),
+boolean data (bool, string). 
+
+5. intergers are whole numbers and have three types short,int, and long short takes the least amount and long takes the most amount of memory (bytes) 
+
+6.the author describes accuracy as how close to the true value something is, and describes precision as the amount of information you have.
+for example the integer 2 is exactly 2 which means it is as close as it can get to the true making it accurate, but lets say I have 2, 
+and a half slices of pizza left. It would be inaccurate to say I have 3 slices, so in order to be precise we must give the information I have a half stating 
+that I have 2.5 slices. even if 1/3 is not accurate it is precise. This is how integers and floating point numbers differ one may be more exact but leaves out 
+vital information and becomes inprecise.
+
+7.the IEEE-754 standard is commonly how floating points are represented. This format has three components the sign bit, exponent, and mantissa.
+the value of the number is the mantissa times 2^x, where x is the exponent. 2x10^-1 = 0.2x10^0, this format works similer to scientific notation.
+the actual exponent is actually the exponent minus 127, e -127. in general: number = (sign ? -1:1) * 2^(exponent) * 1.(mantissa bits)
+
+
+8.
+a) isnan checks to see if a number is a not a number (NaN) value or not, NaN is a number that can not be represented.
+b)I think the output of line 12 will be false
+line 13 = false
+line 14 = false
+line 16 = NaN
+line 17 = NaN
+line 18 = NaN
+line 19 = NaN
+line 22 = true
+line 23 = 2.0/10, 0.2
+line 24 = true
+line 26 = true
+line 27 = false
+
+
+
+
+
+
