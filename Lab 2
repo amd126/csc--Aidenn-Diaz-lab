@@ -52,8 +52,46 @@ and 1 = true. The answers were also different I said line 13 was flase but it sa
 db) becuase I considered the answers for lines 16,18 as undefined I did not see it as infinite, and for line 24 I think the computer may have loss some
 accuracy with the floats maybe rounding incorrectly with identyfing 2.0/10.0. I belive the same thing happened on line 14.
 
-10.
+10.look at file "rectanglearea.cpp" on github, I would have also attached a flowchart on brightspace, if not attached look at file "rectangel_area.cpp,flowchart"
+this is the code I wrote.
+---------------------------------
+// This program will calculate the area and perimeter of a rectangle with the user given measurements
+// before printing the values. The user will be prompted to enter
+// the length and width of the rectangle.
+// Aidenn Diaz
+#include <iostream>
+using namespace std;
+int main()
+{
+float length;
+float width;
+float area;
+float perimeter;
+// Prompt user to enter length.
+cout << "Enter the length of the rectangle" << endl;
+cout << "Then hit enter" << endl;
+cin >> length;
+// Prompt user to enter width.
+cout << "Enter the width of the rectangle" << endl;
+cout << "Then hit enter" << endl;
+cin >> width;
+// calc
+area = length * width;
+perimeter = (2 * length) + (2 * width);
+// Output the values.
+cout <<"The length of the rectangle is "<<length<<" \nThe width of the rectangle is "<<width<< "\nAfter calculating, the area of the rectangle is "
+<< area<<"\nand the perimeter of the rectangle is "<<perimeter;
+return 0;
+}
+----------------------------------------------------------------------
 
+11.
+b)The operation on line 8 is cin this allows the user to input character and type something as input, this allows us to make a program that can use a users input.
+c)This program needs a prompt becuase the user needs to know what is asked of them, the user might input a birthday or something else that is irrelevant and might 
+conflict with the program or its purpose.
+d)When a floating point number is entered it is rounded to the closest integer. This is different from what the user input
+becuase it may not have been inteded to become a integer
+e) previos code already read and used cin
 
 
 
