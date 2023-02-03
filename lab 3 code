@@ -1,0 +1,63 @@
+1.banner
+
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main() {
+cout << " *********************************************************\n"<<"* Aidenn Diaz"<<setw(30)<<"February 3, 2023"<<setw(26)<<"*\n* CSC 101"<<setw(52)
+<<"*\n""*"<<setw(60)<<"*\n*"<<setw(20)<<"Laboratory Assignment # 3"<<setw(35)<<"*\n*"<<setw(58)<<"*"<<
+"\n* The assignment is to create a program that has a banner,*\n* and will calculate a sales transaction."<<setw(20)<<"*\n*"<<setw(58)<<"*"<<
+"\n *********************************************************";
+}
+
+
+2. sales transaction calculator
+
+// This program will calculate the total price of a transaction including sales tax, giving bot a sub total and total
+// before printing the values. The user will be prompted to enter
+// the unit price, amount purchased, and the sales tax rate
+// Aidenn Diaz
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main()
+{
+// here we declare the variables within the program
+float unit_price;
+float total_price;
+float amount_purchased;
+float tax_rate;
+float sub_total;
+float tax;
+string item_name;
+// we place a banner giving information to usr about programmer
+cout << " *********************************************************\n"<<"* Aidenn Diaz"<<setw(30)<<"February 3, 2023"<<setw(26)<<"*\n* CSC 101"<<setw(52)<<"*\n""*"<<setw(60)<<"*\n*"<<setw(20)<<"Laboratory Assignment # 3"<<setw(35)<<"*\n*"<<setw(58)<<"*"<<"\n* The assignment is to create a program that has a banner,*\n* and will calculate a sales transaction."<<setw(20)<<"*\n*"<<setw(58)<<"*"<<"\n *********************************************************\n";
+// Prompt user to enter the name of item purchased
+cout << "Enter the name of the item you purchased"<< endl;
+cout << "Then hit enter"<< endl;
+cin >> item_name;
+// Prompt user to enter unit price.
+// Endl enters us into the next line, for readability
+cout << "Enter the price of the item" << endl;
+cout << "Then hit enter" << endl;
+cin >> unit_price;
+// Prompt user to enter amount purchased.
+cout << "Enter the amount of items purchased"<< endl;
+cout << "Then hit enter" << endl;
+cin >> amount_purchased;
+// Prompt user to enter tax rate.
+// intruct user to give tax rate as decimal
+// \n also enters us into next line
+cout << "When entering sales tax input it as a decimal not a percent,\nfor example 4% would be input as 0.04"<< endl;
+cout << "Enter the sales tax rate" << endl;
+cout << "Then hit enter" << endl;
+cin >> tax_rate;
+// calc
+sub_total = unit_price * amount_purchased;
+tax = sub_total * tax_rate;
+total_price = sub_total + tax;
+// Output the values.
+cout <<"Sub Total: "<<sub_total<< endl<<"tax: "<<tax<< endl<<"Total: "<<total_price<<endl;
+
+return 0;
+}
