@@ -44,7 +44,10 @@ return 0;
 using namespace std;
 int main(){
 // This is a banner displying my name the date the class the assignment and its purpose
-  cout << " *********************************************************\n"<<"* Aidenn Diaz"<<setw(30)<<"February 10, 2023"<<setw(26)<<"*\n* CSC 101"<<setw(52)<<"*\n""*"<<setw(60)<<"*\n*"<<setw(20)<<" Laboratory Assignment # 4"<<setw(34)<<"*\n*"<<setw(58)<<"*"<<"\n* Goal: Create a program with a banner and comments."<<setw(8)<<"*\n"<<"* The program must take the average of three test scores. "<<setw(1)<<"*\n*"<<setw(58)<<"*"<<"\n *********************************************************";
+  cout << " *********************************************************\n"<<"* Aidenn Diaz"<<setw(30)<<"February 10, 2023"<<setw(26)
+  <<"*\n* CSC 101"<<setw(52)<<"*\n""*"<<setw(60)<<"*\n*"<<setw(20)<<" Laboratory Assignment # 4"<<setw(34)<<"*\n*"<<setw(58)<<"*"
+  <<"\n* Goal: Create a program with a banner and comments."<<setw(8)<<"*\n"<<"* The program must take the average of three test scores. "
+  <<setw(1)<<"*\n*"<<setw(58)<<"*"<<"\n *********************************************************";
 // here i declare variables as doubles to keep precision
 double score1;
 double score2;
