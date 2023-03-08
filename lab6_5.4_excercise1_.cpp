@@ -25,7 +25,7 @@ cout << "Please enter the number of hours worked by student "
 cin >> numHours;
 total = total + numHours;
 }
-average = total / 3;
+average = total / wdays;
 cout << endl;
 cout << "The average number of hours per day spent programming by "
 << "student " << student << " is " << average
