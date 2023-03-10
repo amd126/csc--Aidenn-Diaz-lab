@@ -37,7 +37,7 @@ totalBill = itemPrice *quantity;
   
 // Fill in the output statement that prints the total bill, with a label,
 
-dataOut << "to buy a quantity of " << quantity << " items priced at " << itemPrice << " the total cost would be " << totalBill;
+dataOut << "The total bill is " << totalBill;
  dataIn.close();
  dataOut.close();
 // to an output file
