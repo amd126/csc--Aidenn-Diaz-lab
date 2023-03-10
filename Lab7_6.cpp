@@ -18,15 +18,13 @@ double score2;
 double score3;
 double score4;
 string name;
+double avg;
 int x;
-double average;
-
 ofstream fout;
-string fname = "test.out";
 
-fout.open("text.out");
+fout.open("grades.out");
 
-cout << "you will be prompted to enter ten different student names of their four test grades. only enter the students first name.";
+cout << "you will be prompted to enter ten different student names of their four test grades. only enter the students first name.\n";
 //prompt user to enter student names
 for(x = 1;x <= 10;x++)
   {
@@ -57,16 +55,14 @@ for(x = 1;x <= 10;x++)
   cout << "\nEnter test score 4";
   cout << "\nThen hit enter\n";
   cin >> score4;
-    
-  // calc
-    
-  average = (score1 + score2 + score3 + score4)/4;
-    
-  // Output the values.
-    
-  cout << "\nAfter calculating the average is "<< average;
+
+  //calc
+
+    avg = (score1 + score2 + score3 + score4)/4;
   
-  fout << "The average test grade of " << name << " is " << average << endl;
+  // Output the values.
+  
+  fout << name << endl << score1<<endl <<score2<<endl <<score3<<endl <<score4 <<endl << avg << endl;
   }
 fout.close();
 return 0;
