@@ -1,0 +1,7 @@
+cout<<"--------------------------------"<<endl;
+cout<< "Aidenn Diaz" << endl;
+cout<< "Computer Science 1"<<endl;
+cout<< "CRN, 26249"<<endl;
+cout<< "Lab5"<< endl;
+cout<< "February 22, 2023" << endl;
+cout<<"--------------------------------\n"<<endl;
