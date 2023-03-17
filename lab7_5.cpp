@@ -61,7 +61,7 @@ cout << "\nAfter calculating the average is "<< average;
 ofstream fout;
 string fname = "test.out";
 
-fout.open("text.out");
+fout.open("test.out");
   
 fout << "The average test grade of " << student << " is " << average;
 fout.close();
